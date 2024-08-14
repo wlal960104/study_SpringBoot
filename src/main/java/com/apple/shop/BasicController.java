@@ -36,6 +36,9 @@ public class BasicController {
 
         String str_today = today_str.format(today);
         System.out.println("str >>" +  str_today);
+
+        // ZonedDateTime.now().toString()
+        // LocalDateTime.now().toString()
         return str_today;
     }
 }
